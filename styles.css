@@ -1,4 +1,4 @@
-.title{
+.title, .status, .button-container{
     display: flex;
     text-align: center;
     color: #693edf;
@@ -10,6 +10,7 @@
     text-align: center;
     display: flex;
     justify-content: center;
+    
 }
 .game-board{
   display: grid;
@@ -29,4 +30,19 @@
   height: 100px;
   line-height: 100px;
   cursor: pointer;
+}
+.game-status{
+  font-size: 30px;
+}
+
+.restart {
+  background-color: #693edf; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px;
+  display: none;
 }
